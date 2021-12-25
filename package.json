@@ -4,6 +4,7 @@
   "description": "Learning Typescript by making a Blockchanin with it",
   "main": "index.js",
   "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kdkcom1234/typechain/issues"
   },
-  "homepage": "https://github.com/kdkcom1234/typechain#readme"
+  "homepage": "https://github.com/kdkcom1234/typechain#readme",
+  "devDependencies": {
+    "tsc-watch": "^4.6.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
 }
