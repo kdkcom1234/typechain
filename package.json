@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchanin with it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdkcom1234/typechain.git"
+  },
+  "author": "Daekeun Ko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdkcom1234/typechain/issues"
+  },
+  "homepage": "https://github.com/kdkcom1234/typechain#readme"
+}
